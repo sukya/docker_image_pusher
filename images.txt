@@ -1,1 +1,13 @@
 nginx:latest
+
+# 1. 拉取MySQL镜像
+docker.getcollate.io/openmetadata/db:1.9.1
+
+# 2. 拉取Elasticsearch镜像
+docker.elastic.co/elasticsearch/elasticsearch:8.11.4
+
+# 3. 拉取OpenMetadata Server镜像
+docker.getcollate.io/openmetadata/server:1.9.1
+
+# 4. 拉取Ingestion镜像
+docker.getcollate.io/openmetadata/ingestion:1.9.1
